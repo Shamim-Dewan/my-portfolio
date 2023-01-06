@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+}
+.heading-container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 500px;
+    background-color: rgb(219, 217, 213);
+}
+.bg{
+    background-image: url(img/developer.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    margin: 50px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+.carousel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% 80%;
+}
+
+.item1 h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.font-bg{
+    color: orange;
+}
+.item2{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100px;
+}
+.item2 > a,.hire-btn{
+  margin-left: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: rgb(194, 165, 127);
+  text-align: center;
+}
+.item2 button{
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: rgb(218, 73, 16);
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.item3{
+    display: grid;
+    justify-self: left;
+    align-items: center;
+}
+.btn1{
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: rgb(218, 73, 16);
+    color: white;
+    font-size: 14px;
+    border: none;
+    margin-right: 20px;
+}
+.btn2{
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: white;
+    color: rgb(218, 73, 16);
+    font-size: 14px;
+    border: none;
+}
+.item4{
+    background-image: url(img/header_bg.png);
+    background-repeat: no-repeat;
+}
+.item4 img{
+    width: 70%;
+    height: 100%;
+    margin-left: 30%;
+}
+.about{
+    margin: 50px 100px;
+    height: 400px;
+    padding: 50px 80px;
+    background-color: rgb(214, 206, 160);
+}
+.about-heading{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.about-info{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(36, 39, 46);
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.info .level{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.lv{
+    color: rgb(69, 76, 80);
+}
+.skill{
+    text-align: center;
+    margin: 50px 100px;
+    color: rgb(69, 76, 80);
+}
+.cart-container{
+    margin: 50px 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    height: 300px; 
+}
+.cart{
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+.sm-heading{
+    text-align: center;
+    margin-top: 200px;
+}
+.resume{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    margin: 50px;
+    
+}
+.btn-container2{
+    display: grid;
+    justify-items: center;
+}
+.btnX{
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: rgb(218, 73, 16);
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+footer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: blanchedalmond;
+    height: 500px;
+    justify-items: center;
+    margin-top: 50px;
+}
+.footer-txt{
+    text-align: center;
+    padding: 50px;
+}
+.footer-input{
+    display: grid;
+    justify-items: center;
+}
+
+input{
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+textarea{
+    margin-top: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 30px;
+}
